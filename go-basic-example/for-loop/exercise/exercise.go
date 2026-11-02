@@ -17,7 +17,7 @@ func Sqrt_mine(x, y float64) float64 {
 	return y
 }
 
-// Runs the f*cking squareroot I created and checks if the diff is smaller
+// Runs the squareroot I created and checks if the diff is smaller
 // then 0.0001, if so increments the counter. Thrice the diff is smaller then
 // 0.0001 it exits and thens print the diff between my implementation an the
 // math.Sqrt() (native go)
